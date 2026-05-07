@@ -1,0 +1,11 @@
+[package]
+name = "trend-surfer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+chrono = "0.4.44"
+reqwest = { version = "0.13.3", features = ["json"] }
+rusqlite = { version = "0.39.0", features = ["bundled"] }
+scraper = "0.26.0"
+tokio = { version = "1.52.2", features = ["full"] }
